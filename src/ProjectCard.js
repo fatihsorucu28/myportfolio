@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const ProjectCard = ({ logo, description }) => {
+const ProjectCard = ({ logo, description, href }) => {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -42,7 +42,7 @@ const ProjectCard = ({ logo, description }) => {
         }}
       >
         <p>{description}</p>
-        <button
+        <a href={href}
           style={{
             backgroundColor: '#fff',
             fontFamily : 'Poppins',
@@ -56,7 +56,7 @@ const ProjectCard = ({ logo, description }) => {
           }}
         >
           Go to the project
-        </button>
+        </a>
       </div>
     </div>
   );
