@@ -21,7 +21,7 @@ const HeroSection = ({ scrollToAbout }) => {
             <div class='line'></div>
             <div class='line'></div>
             <div class='line'></div>
-            <span><a href="https://fastupload.io/VwfFwdxRIN8fa2C/file">Download CV</a></span>
+            <span><a style={{textDecoration: 'none', color: 'black'}} href="https://fastupload.io/VwfFwdxRIN8fa2C/file">Download CV</a></span>
         </div>
         </div>
         </div>
