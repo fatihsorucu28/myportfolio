@@ -41,7 +41,7 @@ The RPG Quest System is a text-based adventure game project written in C++, simu
             - Description: Designed and developed a portfolio website to showcase
             my skills and projects. <br />
             - Technologies Used: CSS, React.js <br />
-            - GitHub Repository: [Link] <br />
+            - GitHub Repository: <a href="https://github.com/fatihsorucu28/my-portfolio">Link</a> <br />
           </p>
         </div>
       </div>
