@@ -5,6 +5,7 @@ import Typewriter from './Typewriter';
 import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
 import ProjectSection from './ProjectSection';
+import Footer from './Footer';
 function App() {
   const scrollToAbout = () => {
     const aboutSection = document.getElementById('about');
@@ -25,10 +26,11 @@ function App() {
   return (
     <div>
       <Navbar />
-      <HeroSection />
+      <HeroSection/>
       <AboutSection/>
       <hr style={{marginTop: '5em', border : '0.1em solid black', width : '75%'}}></hr>
       <ProjectSection/>
+      <Footer/>
     </div>
   );
 }

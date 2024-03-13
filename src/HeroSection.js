@@ -5,7 +5,7 @@ import Typewriter from './Typewriter';
 
 const HeroSection = ({ scrollToAbout }) => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <Typewriter />
       <div className="about-me">
         <h2>About Me</h2>
